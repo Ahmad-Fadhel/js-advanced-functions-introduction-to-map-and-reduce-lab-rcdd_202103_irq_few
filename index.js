@@ -1,33 +1,33 @@
 // Your code here
-function mapToNegativize(sourceArray){
+const mapToNegativize = sourceArray =>{
   let newArray = []
   sourceArray.forEach(element => newArray.push(-1 * element))
   return newArray
 }
 
-function mapToNoChange(sourceArray){
+const mapToNoChange = sourceArray =>{
   return sourceArray
 }
 
-function mapToDouble(sourceArray){
+const mapToDouble = sourceArray =>{
   let newArray = []
   sourceArray.forEach(element => newArray.push(element * 2))
   return newArray
 }
 
-function mapToSquare(sourceArray){
+const mapToSquare = sourceArray =>{
   let newArray = []
   sourceArray.forEach(element => newArray.push(element * element))
   return newArray
 }
 
-function reduceToTotal(sourceArray, startingPoint = 0){
+const reduceToTotal = (sourceArray, startingPoint = 0) =>{
   let total = startingPoint
   sourceArray.forEach(element => total += element)
   return total
 }
 
-function reduceToAllTrue(sourceArray){
+const reduceToAllTrue = sourceArray =>{
   let returnValue = true
   sourceArray.forEach(value => {
     if (value === false){
@@ -37,7 +37,7 @@ function reduceToAllTrue(sourceArray){
   return returnValue
 }
 
-const reduceToAnyTrue = sourceArray => {
+const reduceToAnyTrue = sourceArray =>{
     let returnValue = false
     sourceArray.forEach(value => {
       if (value === true){
