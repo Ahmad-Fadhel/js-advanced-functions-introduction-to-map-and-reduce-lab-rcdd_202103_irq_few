@@ -37,7 +37,7 @@ function reduceToAllTrue(sourceArray){
   return returnValue
 }
 
-function reduceToAnyTrue(sourceArray){
+const reduceToAnyTrue = sourceArray => {
     let returnValue = false
     sourceArray.forEach(value => {
       if (value === true){
