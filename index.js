@@ -1,15 +1,8 @@
 // Your code here
-// function mapToNegativize(sourceArray){
-//   let newArray = []
-//   sourceArray.forEach(element => newArray.push(-1 * element))
-//   return newArray
-// };
-
 function mapToNegativize(sourceArray){
- sourceArray.map(array => {
-  return array* -1
-   
- })
+  let newArray = []
+  sourceArray.forEach(element => newArray.push(-1 * element))
+  return newArray
 };
 
 function mapToNoChange(sourceArray){
