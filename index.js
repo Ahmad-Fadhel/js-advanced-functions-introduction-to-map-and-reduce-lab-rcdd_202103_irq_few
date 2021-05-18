@@ -1,2 +1,4 @@
 // Your code here
-mapToNegativize(sourceArray)
+mapToNegativize.map(negative => {
+  return negative - negative 
+})
