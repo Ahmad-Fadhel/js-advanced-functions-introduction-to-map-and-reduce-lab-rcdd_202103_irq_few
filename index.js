@@ -1,4 +1,4 @@
 // Your code here
 mapToNegativize.map(negative => {
-  return negative - negative 
+  return -negative
 })
