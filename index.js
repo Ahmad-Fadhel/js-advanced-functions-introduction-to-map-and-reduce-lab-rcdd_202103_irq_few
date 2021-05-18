@@ -1,13 +1,16 @@
 // Your code here
-function mapToNegativize(sourceArray){
-  let newArray = []
-  sourceArray.forEach(element => newArray.push(-1 * element))
-  return newArray
-};
+// function mapToNegativize(sourceArray){
+//   let newArray = []
+//   sourceArray.forEach(element => newArray.push(-1 * element))
+//   return newArray
+// };
 
-const mapToNegativize = sourceArray.map(array => {
+function mapToNegativize(sourceArray){
+ sourceArray.map(array => {
   return array* -1
-})
+   
+ })
+};
 
 function mapToNoChange(sourceArray){
   return sourceArray
