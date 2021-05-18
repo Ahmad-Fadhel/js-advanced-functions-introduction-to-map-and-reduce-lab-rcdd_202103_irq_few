@@ -1,8 +1,8 @@
 // Your code here
-mapToNegativize.map(negative => {
+const mapToNegativize = mapToNegativize.map(negative => {
   return -negative
 })
 
-mapToNoChange.map(original => {
+const mapToNoChange =mapToNoChange.map(original => {
   return original
 })
